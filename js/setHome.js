@@ -129,11 +129,8 @@ function startMove(position){
 	clearInterval(timer);
 	var oDiv= document.getElementById("logo_left");	
 	timer=setInterval(function(){
-		//var speed=0;
 		var speed=(position-oDiv.offsetTop)/8;
 		speed=speed>0?Math.ceil(speed):Math.floor(speed);
-		/*if(oDiv.offsetTop>position){speed=-10}
-		else{speed=10}*/
 		if(oDiv.offsetTop==position){
 			clearInterval(timer);
 		}else{
@@ -150,13 +147,9 @@ function starttou(position){
 	if(alpha>position){
 		oDiv.style.opacity=0.6;
 		alpha=0.6;}
-	else{//oDiv.style.opacity=1
+	else{
 	timer2=setInterval(function(){
-		//var speed=0;
-		//if(alpha>position){speed=-0.1}
-		//else{
 		var speed=0.025;
-			//}
 		if(alpha==position){
 			clearInterval(timer2);
 		}else{
@@ -165,7 +158,7 @@ function starttou(position){
 		}		
 		},30)
 		}
-}//main menu结束
+}//main menu end
 
 //search bar
 var timer3=null;
@@ -183,5 +176,5 @@ function startAlpha(target){
 			searchText.style.opacity=alpha2/10;}
 	},30)	
 }
-//search bar结束
+//search bar end
 

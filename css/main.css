@@ -3,22 +3,16 @@
 
 html,body{margin:0; padding:0; background:#1D93A5;//#FFC000; }
 
-/*隐藏栏*/
-/*.hidden{width:100%; height:30px; background:#FFC000; opacity:0.4; position:absolute;top:-30px;}
-*/
-
-
-
-/*头标题栏*/
+/*top menu bar*/
 .top{ height:40px; background:#FFC000; background-size:cover; }
 .top ul{margin:0;padding:0;}
 .top li{font-size:11px;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;font-weight:600;width:60px;line-height:40px;float:right;color:#733408;margin-right:8px;list-style-type:none;}
 .top a:link,.top a:hover{text-decoration:none;color:#733408;}
-/*头标题栏结束*/
+/*top menu bar end*/
 
-/*主标题栏背景logo图*/
+/*main menu logo picture*/
 .logo{height:400px;background:url(../images/nail_back2chang.png) no-repeat;background-size:cover;position:relative;overflow:hidden;}
-/*主标题菜单栏*/
+/*main menu area*/
 .logo_left{width:100%;float:left;height:50px;position:absolute;top:-270px;padding-left:0px;z-index:0;}
 .logo_ltop{height:270px;	width:100%;background-color: rgba(255,192,0,0.6);}
 .logo_ltop_content{height:200px;width:90%;padding-top:10px;padding-left:20px;margin:0 auto;}
@@ -27,25 +21,25 @@ html,body{margin:0; padding:0; background:#1D93A5;//#FFC000; }
 .logo_ltop a:link,.logo_ltop a:hover{color:#733408;text-decoration:none;}
 .logo_ltop ul li ul li{width:100%;font-size:12px;font-family:Arial, Helvetica, sans-serif;font-weight:400;}
 .logo_lbottom img{max-height:50px;_height:expression(this.height > 50 ? "50px" : this.width);opacity:1;} 
-/*搜索栏*/
+/*search bar*/
 .logo_right{float:right;margin-top:320px;margin-right:40px;opacity:0.4;}
 .logo_right form{background-color:#FFF;height:30px;-webkit-border-radius:7px;padding-top:6px;}
 .search-text{border:none;height:21px;width:270px;font-size:16px;outline:none;margin-left:6px;float:left;}
 .search-button{border:0;background:url(../images/search.jpg) no-repeat;width:25px;height:21px;margin-right:6px;float:left;outline:none;}
-/*主标题栏结束*/
+/*main menu area end*/
 
 
 
-/*介绍栏*/
+/*intro area*/
 .intro{width:100%;height:300px;margin-top:30px;//background:black;
 }
-/*介绍栏内容*/
+/*intro content*/
 .introBox{width:55%;height: 300px;margin-left: 30px;text-align: center;float:left;
 	//background:red;
 	margin-right:10px;}
 .introCon{width: 80%;height: 100px;margin: auto;}
 .introCon td{color:#733408;font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;font-weight:600;height: 300px;vertical-align:middle;}
-/*介绍栏的图片动画*/
+/*intro slideshow pictures*/
 .intro_img{width:35%;float:left;margin:0;padding:0;
 	//background:red;
 }
@@ -74,16 +68,16 @@ html,body{margin:0; padding:0; background:#1D93A5;//#FFC000; }
 #next{right:20px;background:url(../images/introimg/arrow-right.png);opacity:0.1;}
 #next:hover{right:20px;background:url(../images/introimg/arrow-right.png);opacity:0.6;}
 .introImg img{border-radius:7px;}
-/*介绍栏结束*/
+/*intro area end*/
 
 
 
-/*热销栏*/
+/*best sale area*/
 .bestSale{width:90%;margin:20px auto;padding-left:10px;
 	//background:red;
 }
 .bestSale h2{color:#733408;margin-bottom:10px;}
-/*热销栏图片特效展示*/
+/*pictures with dynamic effects*/
 .bestimg{margin-left:10px;width:100%;background:black;}
 .bestimg img{border-radius:7px; }
 .bestimg figure{position:relative; width:25%;float:left;margin:0;height:200px; overflow:hidden;}
@@ -152,10 +146,10 @@ left:14px; background:#333; transform:scale(1.3,1.3);opacity:0;}
 .figure4:hover img{transform:translate(30px,0px); opacity:0.6}
 
 
-/*热销栏结束*/
+/*best sale area end*/
 
 
-/*底部栏*/
+/*bottom info area*/
 .bottom{margin-top: 30px;height:200px;}
 .bottom-content{width:80%;margin:0 auto;}
 .bottom ul{list-style: none;margin: 0px;padding:0px;}
@@ -182,7 +176,7 @@ left:14px; background:#333; transform:scale(1.3,1.3);opacity:0;}
 	.bc1 img,.bc2 img,.bc3 img{width:70%;}
 	#bottomimg{padding-left:50px;}
 }
-/*底部栏结束*/
+/*bottom info area end*/
 
 
 
